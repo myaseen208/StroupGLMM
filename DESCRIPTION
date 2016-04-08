@@ -9,5 +9,6 @@ Description: Performs Diallel Analysis with R using Griffing's and Hayman's appr
 Depends: R (>= 3.1)
 Imports: ggplot2, stats
 License: GPL-2
+URL:      https://github.com/MYaseen208/DiallelAnalysisR
 LazyData: TRUE
 RoxygenNote: 5.0.1.9000
