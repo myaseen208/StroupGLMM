@@ -1,7 +1,7 @@
 # StroupGLMM
 ## Introduction
 
-**StroupGLMM** has R  codes and data sets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Stroup, Walter W. 
+**StroupGLMM** has R  codes and data sets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup. 
 
 ## Installation
 Use **devtools** to install the development version from Github:
