@@ -1,4 +1,4 @@
-# Changes in DiallelAnalysisR Version 0.1.1
+# Changes in StroupGLMM  Version 0.1.0
 ## New Features 
 
-* First version of DiallelAnalysisR: 
+* First version of StroupGLMM. 

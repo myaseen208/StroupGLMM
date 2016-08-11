@@ -1,14 +1,18 @@
-Package: DiallelAnalysisR
+Package: StroupGLMM
 Type: Package
-Title: Diallel Analysis with R
-Version: 0.1.1
-Authors: c( person(c("Muhammad", "Yaseen"),  email = c("myaseen208@gmail.com", "myaseen208@uaf.edu.pk"), role = c("aut", "cre")),
-                   person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ", role = "ctb"))
+Title: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
+Version: 0.1.0
+Authors@R: c(
+              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
+            , person(c("Adeela", "Munawar"),  email = "adeela.uaf@@gmail.com", role = c("aut"))
+            , person(c("Walter", "W.", "Stroup"),  email = "wstroup@unl.edu", role = "ctb")
+            , person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ", role = "ctb")
+            )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
-Description: Performs Diallel Analysis with R using Griffing's and Hayman's approaches. Four different Methods (1: Method-I (Parents + F1's + reciprocals); 2: Method-II (Parents and one set of F1's); 3: Method-III (One set of F1's and reciprocals); 4: Method-IV (One set of F1's only) and two Models (1: Fixed Effects Model; 2: Random Effects Model) can be applied using Griffing's approach.
+Description: R Codes and Datasets for Stroup, W. W. (2012). Generalized Linear Mixed Models: Modern Concepts, Methods and Applications, CRC Press.
 Depends: R (>= 3.1)
-Imports: ggplot2, stats
+Imports: aod, ggplot2, lme4, lmerTest, lsmeans, MASS, mutoss, nlme, pbkrtest, phia, stats, survey
 License: GPL-2
-URL:      https://github.com/MYaseen208/DiallelAnalysisR
+URL:      https://github.com/MYaseen208/StroupGLMM
 LazyData: TRUE
 RoxygenNote: 5.0.1.9000
