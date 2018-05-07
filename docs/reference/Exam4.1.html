@@ -123,10 +123,8 @@
 <span class='no'>DataSet4.1</span>$<span class='no'>block</span> <span class='kw'>&lt;-</span> <span class='fu'>factor</span>(<span class='kw'>x</span> <span class='kw'>=</span>  <span class='no'>DataSet4.1</span>$<span class='no'>block</span>)
 
 <span class='co'>##---REML estimates on page 138(article 4.4.3.3)</span>
-<span class='fu'>library</span>(<span class='no'>lme4</span>)</div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: ‘lme4’</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from ‘package:nlme’:</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    lmList</span></div><div class='input'><span class='no'>Exam4.1REML</span>  <span class='kw'>&lt;-</span>
+<span class='fu'>library</span>(<span class='no'>lme4</span>)
+<span class='no'>Exam4.1REML</span>  <span class='kw'>&lt;-</span>
   <span class='fu'><a href='http://www.rdocumentation.org/packages/lme4/topics/lmer'>lmer</a></span>(
       <span class='kw'>formula</span>     <span class='kw'>=</span> <span class='no'>y</span>~ <span class='no'>trt</span> +( <span class='fl'>1</span><span class='kw'>|</span><span class='no'>block</span> )
     , <span class='kw'>data</span>        <span class='kw'>=</span> <span class='no'>DataSet4.1</span>

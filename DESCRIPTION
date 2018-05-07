@@ -1,6 +1,6 @@
 Package: StroupGLMM
 Type: Package
-Title: R Codes and Datasets for Generalized Linear Mixed Models Modern Concepts, Methods and Applications by Walter W. Stroup
+Title: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
 Version: 0.1.0
 Authors@R: c(
               person(c("Muhammad", "Yaseen"),      email = "myaseen208@gmail.com",  role = c("aut", "cre"))

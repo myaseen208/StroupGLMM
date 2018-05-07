@@ -261,10 +261,8 @@ linear models and generalized linear models.</p>
 <span class='co'>#-------------------------------------------------------------</span>
 <span class='co'>## GLM fitting with survey package(produces same result as using quasi binomial family in glm)</span>
 <span class='co'>#-------------------------------------------------------------</span>
-<span class='fu'>library</span>(<span class='no'>survey</span>)</div><div class='output co'>#&gt; <span class='message'>Loading required package: grid</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: Matrix</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: survival</span></div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: ‘survey’</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from ‘package:graphics’:</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    dotchart</span></div><div class='input'><span class='no'>design</span>   <span class='kw'>&lt;-</span>
+<span class='fu'>library</span>(<span class='no'>survey</span>)
+<span class='no'>design</span>   <span class='kw'>&lt;-</span>
   <span class='fu'><a href='http://www.rdocumentation.org/packages/survey/topics/svydesign'>svydesign</a></span>(
       <span class='kw'>ids</span>          <span class='kw'>=</span>  ~<span class='fl'>1</span>
     , <span class='kw'>probs</span>        <span class='kw'>=</span>  <span class='kw'>NULL</span>

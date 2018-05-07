@@ -181,10 +181,8 @@
 #&gt;      Df Deviance Resid. Df Resid. Dev Pr(&gt;Chi)
 #&gt; NULL                    13     2.2947         
 #&gt; X     1  0.18694        12     2.1078   0.2944</div><div class='input'>
-<span class='fu'>library</span>(<span class='no'>aod</span>)</div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: ‘aod’</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from ‘package:survival’:</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    rats</span></div><div class='input'><span class='no'>WaldExam5.1.glm.1</span> <span class='kw'>&lt;-</span>
+<span class='fu'>library</span>(<span class='no'>aod</span>)
+<span class='no'>WaldExam5.1.glm.1</span> <span class='kw'>&lt;-</span>
   <span class='fu'><a href='http://www.rdocumentation.org/packages/aod/topics/wald.test'>wald.test</a></span>(
       <span class='kw'>Sigma</span>   <span class='kw'>=</span> <span class='fu'>vcov</span>(<span class='kw'>object</span><span class='kw'>=</span><span class='no'>Exam5.1.glm.1</span>)
     , <span class='kw'>b</span>       <span class='kw'>=</span> <span class='fu'>coef</span>(<span class='kw'>object</span><span class='kw'>=</span><span class='no'>Exam5.1.glm.1</span>)
