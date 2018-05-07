@@ -66,12 +66,6 @@ contrast(object = Lsm3.2 , method = "pairwise")
 #---------------------------------------------------
 ## contrast( object = Lsm3.2 , method = "repairwise")
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).
@@ -82,5 +76,10 @@ contrast(object = Lsm3.2 , method = "pairwise")
 \seealso{
 \code{\link{DataSet3.1}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

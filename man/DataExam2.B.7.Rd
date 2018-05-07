@@ -22,12 +22,6 @@ Exam2.B.7 is related to multi batch regression data assuming different forms of 
 \examples{
 data(DataExam2.B.7)
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).\emph{Generalized linear mixed models: modern concepts, methods and applications}.
@@ -37,5 +31,10 @@ data(DataExam2.B.7)
 \seealso{
 \code{\link{Exam2.B.7}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

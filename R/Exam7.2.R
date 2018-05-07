@@ -14,7 +14,9 @@
 #'  }
 #' @seealso
 #'    \code{\link{DataSet7.2}}
+#'
 #' @import lsmeans car ggplot2
+#'
 #' @examples
 library(lsmeans)
 library(car)
@@ -23,7 +25,7 @@ data(DataSet7.2)
 DataSet7.2$trt <- factor( x = DataSet7.2$trt )
 ##----ANCOVA(Equal slope Model)
 Exam7.2fm1 <-
-    aov( 
+    aov(
         formula = y ~ trt*x
       , data    = DataSet7.2
         )
@@ -32,11 +34,11 @@ car::Anova( mod = Exam7.2fm1 , type="III")
 
 ##---ANCOVA(without interaction because of non significant slope effect)
 Exam7.2fm2 <-
-    aov( 
+    aov(
         formula = y ~ trt + x
       , data    = DataSet7.2
         )
-       
+
 car::Anova(mod = Exam7.2fm2 , type="III")
 ##---Ls means for 2nd model
 ( Lsm7.2    <-
@@ -45,15 +47,15 @@ car::Anova(mod = Exam7.2fm2 , type="III")
        , specs   = ~trt
      # , ...
      )
-   ) 
+   )
 ##---Anova without covariate
 Exam7.2fm3 <-
-    aov( 
-        formula = y ~ trt 
+    aov(
+        formula = y ~ trt
       , data    = DataSet7.2
         )
-       
-car::Anova( mod = Exam7.2fm3,type="III") 
+
+car::Anova( mod = Exam7.2fm3,type="III")
 ##---Ls means for 3rd model
  ( Lsm7.2    <-
      lsmeans::lsmeans(
@@ -61,10 +63,10 @@ car::Anova( mod = Exam7.2fm3,type="III")
        , specs   = ~trt
      # , ...
      )
-   ) 
-##---Box Plot of Covariate by treatment   
+   )
+##---Box Plot of Covariate by treatment
 Plot <-
-   ggplot( 
+   ggplot(
           data    = DataSet7.2
         , mapping = aes(x= factor(trt), y=x)
          )                 +
@@ -77,12 +79,12 @@ Plot <-
        , shape    =  23
        , size     =  2
        , fill     = "red"
-       )                   + 
+       )                   +
    theme_bw()              +
    ggtitle("Covariate by treatment Box Plot") +
    xlab("Treatment")
-print(Plot) 
+print(Plot)
 
-NULL 
-   
- 
+NULL
+
+

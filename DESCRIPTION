@@ -1,18 +1,34 @@
 Package: StroupGLMM
 Type: Package
-Title: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
+Title: R Codes and Datasets for Generalized Linear Mixed Models Modern Concepts, Methods and Applications by Walter W. Stroup
 Version: 0.1.0
 Authors@R: c(
-              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
-            , person(c("Adeela", "Munawar"),  email = "adeela.uaf@@gmail.com", role = c("aut"))
-            , person(c("Walter", "W.", "Stroup"),  email = "wstroup@unl.edu", role = "ctb")
-            , person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ", role = "ctb")
+              person(c("Muhammad", "Yaseen"),      email = "myaseen208@gmail.com",  role = c("aut", "cre"))
+            , person(c("Adeela", "Munawar"),       email = "adeela.uaf@@gmail.com", role = c("aut"))
+            , person(c("Walter", "W.", "Stroup"),  email = "wstroup@unl.edu",       role = c("ctb"))
+            , person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ",   role = c("ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
-Description: R Codes and Datasets for Stroup, W. W. (2012). Generalized Linear Mixed Models: Modern Concepts, Methods and Applications, CRC Press.
+Description: R Codes and Datasets for Stroup, W. W. (2012). Generalized Linear Mixed Models Modern Concepts, Methods and Applications, CRC Press.
 Depends: R (>= 3.1)
-Imports: aod, ggplot2, lme4, lmerTest, lsmeans, MASS, mutoss, nlme, pbkrtest, phia, stats, survey
+Imports: 
+     aod, 
+     ggplot2, 
+     lme4, 
+     lmerTest, 
+     lsmeans, 
+     MASS, 
+     mutoss, 
+     nlme, 
+     pbkrtest, 
+     phia, 
+     stats, 
+     survey,
+     car,
+     plot3D,
+     scatterplot3d
 License: GPL-2
-URL:      https://github.com/MYaseen208/StroupGLMM
-LazyData: TRUE
-RoxygenNote: 5.0.1.9000
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Note: Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad-Pakistan.

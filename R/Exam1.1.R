@@ -4,22 +4,27 @@
 #' @keywords datasets
 #' @description Exam1.1 is used for inspecting probability distribution and to define a plausible process through
 #' linear models and generalized linear models.
-#' @author \enumerate{
-#'          \item  Muhammad Yaseen (\email{myaseen208@@gmail.com})
-#'          \item Adeela Munawar (\email{adeela.uaf@@gmail.com})
+#'
+#' @author
+#'  \enumerate{
+#'          \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+#'          \item Adeela Munawar (\email{adeela.uaf@gmail.com})
 #'          }
-#' @references \enumerate{
-#' \item Stroup, W. W. (2012).
+#'
+#' @references
+#' \enumerate{
+#'    \item Stroup, W. W. (2012).
 #'      \emph{Generalized Linear Mixed Models: Modern Concepts, Methods and Applications}.
 #'        CRC Press.
-#'  }
+#'          }
+#'
 #' @seealso
-#'    \code{\link{Table1.1}}
-#'    
+#'    \link{Table1.1}
+#'
 #' @importFrom ggplot2 ggplot
 #' @importFrom stats lm summary.lm glm summary.glm cor
 #' @importFrom survey svydesign svyglm
-#' 
+#'
 #' @examples
 #' #-------------------------------------------------------------
 #' ## Linear Model and results discussed in Article 1.2.1 after Table1.1
@@ -43,7 +48,7 @@
 #'     # , ...
 #'   )
 #' summary(Exam1.1.lm1 )
-#' 
+#'
 #' #-------------------------------------------------------------
 #' ## GLM fitting with logit link (family=binomial)
 #' #-------------------------------------------------------------
@@ -69,7 +74,7 @@
 #'   )
 #' ## this glm() function gives warning message of non-integer success
 #' summary(Exam1.1.glm1)
-#' 
+#'
 #' #-------------------------------------------------------------
 #' ## GLM fitting with logit link (family=Quasibinomial)
 #' #-------------------------------------------------------------
@@ -95,7 +100,7 @@
 #'   )
 #' ## problem of "warning message of non-integer success" is overome by using quasibinomial family
 #' summary(Exam1.1.glm2)
-#' 
+#'
 #' #-------------------------------------------------------------
 #' ## GLM fitting with survey package(produces same result as using quasi binomial family in glm)
 #' #-------------------------------------------------------------
@@ -114,7 +119,7 @@
 #'     , pps          =  FALSE
 #'     # , ...
 #'   )
-#' 
+#'
 #' Exam1.1.svyglm  <-
 #'   svyglm(
 #'       formula  =  y/Nx~x
@@ -123,7 +128,7 @@
 #'     , family   =  quasibinomial(link="logit")
 #'   )
 #' # summary(Exam1.1.svyglm)
-#' 
+#'
 #' #-------------------------------------------------------------
 #' ## Figure 1.1
 #' #-------------------------------------------------------------
@@ -139,7 +144,7 @@
 #' ## One Method to plot  Figure1.1
 #' #-------------------------------------------------------------
 #' library(ggplot2)
-#' 
+#'
 #' Figure1.1   <-
 #'   ggplot(
 #'       data     = Newdata
@@ -194,7 +199,7 @@
 #'     , X     =  rep(Table1.1$x, 3)
 #'     , group =  rep(c('Obs','LM','GLM'), each = length(Table1.1$x))
 #'   )
-#' 
+#'
 #' Figure1.1      <-
 #'   ggplot(
 #'       data    = newdata

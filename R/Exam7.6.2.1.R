@@ -38,8 +38,6 @@ if(x2[i]==0)
 }
  DataSet7.6$logx1 <- logx1 
  DataSet7.6$logx2 <- logx2 
-
-Model<- lm(, DataSet7.6)
 Exam7.6.2.1.lm <-
      lm(
         formula     = response ~ x1*x2 + logx1*logx2 

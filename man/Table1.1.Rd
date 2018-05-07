@@ -9,32 +9,29 @@
 data(Table1.1)
 }
 \description{
-\code{Exam1.1} is used for inspecting probability distribution and to define a plausible process.
+\code{Table1.1} is used for inspecting probability distribution and to define a plausible process.
 }
 \details{
 \itemize{
-       \item x independent variable
-       \item Nx bernouli trials(bernouli outcomes on each individual)
-       \item y  number of successes on each individual
+       \item{\code{x}}{independent variable}
+       \item{\code{Nx}}{bernouli trials (bernouli outcomes on each individual)}
+       \item{\code{y}}{number of successes on each individual}
        }
 }
 \examples{
+library(StroupGLMM)
 data(Table1.1)
-}
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
 }
 \references{
 \enumerate{
-\item Stroup, W. W. (2012).\emph{Generalized linear mixed models: modern concepts, methods and applications}.
+\item Stroup, W. W. (2012).Generalized linear mixed models: modern concepts, methods and applications.
              CRC press.
  }
 }
-\seealso{
-\code{\link{Exam1.1}}
+\author{
+\enumerate{
+    \item Muhammad Yaseen (\email{myaseen208@gmail.com})
+    \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+   }
 }
 \keyword{datasets}
-

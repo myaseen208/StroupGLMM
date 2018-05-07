@@ -222,21 +222,20 @@ print(Figure1.1)
     Table1.1$y/Table1.1$Nx,Exam1.1.glm1$fitted.values)
 )
 }
+\references{
+\enumerate{
+   \item Stroup, W. W. (2012).
+     \emph{Generalized Linear Mixed Models: Modern Concepts, Methods and Applications}.
+       CRC Press.
+         }
+}
+\seealso{
+\link{Table1.1}
+}
 \author{
 \enumerate{
          \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
          \item Adeela Munawar (\email{adeela.uaf@gmail.com})
          }
 }
-\references{
-\enumerate{
-\item Stroup, W. W. (2012).
-     \emph{Generalized Linear Mixed Models: Modern Concepts, Methods and Applications}.
-       CRC Press.
- }
-}
-\seealso{
-\code{\link{Table1.1}}
-}
 \keyword{datasets}
-

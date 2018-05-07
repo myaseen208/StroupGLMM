@@ -25,12 +25,6 @@ DataSet3.2 Multi-Location, 4 Treatment Randomized Block
 \examples{
 data(DataSet3.2)
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).\emph{Generalized linear mixed models: modern concepts, methods and applications}.
@@ -41,5 +35,10 @@ data(DataSet3.2)
 \code{\link{Exam3.3}}
    \code{\link{Exam3.9}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

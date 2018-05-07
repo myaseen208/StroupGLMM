@@ -81,12 +81,6 @@ Exam4.1.lm <-
   )
 summary(anova(object = Exam4.1.lm))
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).
@@ -97,5 +91,10 @@ summary(anova(object = Exam4.1.lm))
 \seealso{
 \code{\link{DataSet4.1}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

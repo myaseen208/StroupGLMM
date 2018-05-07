@@ -20,12 +20,6 @@ Exam2.B.3 is used to illustrate one way treatment design with Gaussian observati
 \examples{
 data(DataExam2.B.3)
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).\emph{Generalized linear mixed models: modern concepts, methods and applications}.
@@ -35,5 +29,10 @@ data(DataExam2.B.3)
 \seealso{
 \code{\link{Exam2.B.3}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

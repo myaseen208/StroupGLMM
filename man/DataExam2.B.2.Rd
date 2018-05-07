@@ -12,20 +12,14 @@ data(DataExam2.B.2)
 Exam2.B.2 is used to visualize the effect of glm model statement with binomial data with logit and probit links.
 }
 \details{
-\itemize{
-       \item x independent variable
-       \item n bernouli trials(bernouli outcomes on each individual)
-       \item y  number of successes on each individual
+{
+       \item{\code{x}}{independent variable}
+       \item{\code{n}}{bernouli trials(bernouli outcomes on each individual)}
+       \item{\code{y}}{number of successes on each individual}
        }
 }
 \examples{
 data(DataExam2.B.2)
-}
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
 }
 \references{
 \enumerate{
@@ -34,7 +28,12 @@ data(DataExam2.B.2)
  }
 }
 \seealso{
-\code{\link{Exam2.B.2}}
+\link{Exam2.B.2}
+}
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
 }
 \keyword{datasets}
-

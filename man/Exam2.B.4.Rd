@@ -37,12 +37,6 @@ Exam2.B.4glm <-
   )
 summary(Exam2.B.4glm)
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).
@@ -53,5 +47,10 @@ summary(Exam2.B.4glm)
 \seealso{
 \code{\link{DataExam2.B.4}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-

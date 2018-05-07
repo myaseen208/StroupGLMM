@@ -98,12 +98,6 @@ Exam2.B.5.lm4 <-
 DesignMatrix.lm4 <-   model.matrix(object = Exam2.B.5.lm4)
 DesignMatrix.lm4
 }
-\author{
-\enumerate{
-         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
-         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
-         }
-}
 \references{
 \enumerate{
 \item Stroup, W. W. (2012).
@@ -114,5 +108,10 @@ DesignMatrix.lm4
 \seealso{
 \code{\link{Table1.2}}
 }
+\author{
+\enumerate{
+         \item  Muhammad Yaseen (\email{myaseen208@gmail.com})
+         \item Adeela Munawar (\email{adeela.uaf@gmail.com})
+         }
+}
 \keyword{datasets}
-
