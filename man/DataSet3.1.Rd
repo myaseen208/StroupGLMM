@@ -4,7 +4,9 @@
 \name{DataSet3.1}
 \alias{DataSet3.1}
 \title{Data for Example 3.1 and Example 3.2 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup}
-\format{A \code{data.frame} with 20 rows and 5 variables.}
+\format{
+A \code{data.frame} with 20 rows and 5 variables.
+}
 \usage{
 data(DataSet3.1)
 }

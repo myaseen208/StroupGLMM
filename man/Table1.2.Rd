@@ -4,7 +4,9 @@
 \name{Table1.2}
 \alias{Table1.2}
 \title{Data for Table1.2 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup(p-10)}
-\format{A \code{data.frame} with 36 rows and 5 variables.}
+\format{
+A \code{data.frame} with 36 rows and 5 variables.
+}
 \usage{
 data(Table1.2)
 }

@@ -1,5 +1,8 @@
-pandoc: 2.1.3
-pkgdown: 1.0.0
-pkgdown_sha: ~
-articles: []
-
+pandoc: 3.1.11
+pkgdown: 2.1.0.9000
+pkgdown_sha: 800340f4b1b6d5c8c0c3510ef34776436b14b298
+articles: {}
+last_built: 2024-09-25T02:20Z
+urls:
+  reference: https://myaseen208.com/StroupGLMM/reference
+  article: https://myaseen208.com/StroupGLMM/articles

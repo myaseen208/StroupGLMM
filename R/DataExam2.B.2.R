@@ -5,11 +5,12 @@
 #' @usage data(DataExam2.B.2)
 #' @description Exam2.B.2 is used to visualize the effect of glm model statement with binomial data with logit and probit links.
 #' @format A \code{data.frame} with 11 rows and 3 variables.
-#' @details{
-#'        \item{\code{x}}{independent variable}
-#'        \item{\code{n}}{bernouli trials(bernouli outcomes on each individual)}
-#'        \item{\code{y}}{number of successes on each individual}
-#'        }
+#' @details
+#'      \itemize{
+#'        \item x independent variable
+#'        \item n bernouli trials (bernouli outcomes on each individual)
+#'        \item y number of successes on each individual
+#'      }
 #'
 #' @author
 #'  \enumerate{

@@ -8,9 +8,9 @@
 #'
 #' @details
 #'        \itemize{
-#'        \item{\code{x}}{independent variable}
-#'        \item{\code{Nx}}{bernouli trials (bernouli outcomes on each individual)}
-#'        \item{\code{y}}{number of successes on each individual}
+#'        \item x independent variable
+#'        \item Nx bernouli trials (bernouli outcomes on each individual)
+#'        \item y number of successes on each individual
 #'        }
 #'
 #' @author

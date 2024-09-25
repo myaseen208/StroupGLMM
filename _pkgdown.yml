@@ -1,0 +1,107 @@
+url: https://myaseen208.com/StroupGLMM/
+
+home:
+  title: StroupGLMM
+  description: R Codes and Datasets for Generalized Linear Mixed Models - Modern Concepts, Methods and Applications by Walter W. Stroup
+
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: united
+    ganalytics: UA-116716530-2
+    docsearch:
+      api_key: bdafb7ea4490644e670f470ee3ef537f
+      index_name: StroupGLMM
+
+
+toc:
+  depth: 3
+
+authors:
+  Muhammmad Yaseen:
+    href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+  Adeela Munawar:
+    href: https://www.researchgate.net/profile/Adeela-Munawar
+  Walter W. Stroup:
+    href: https://www.researchgate.net/scientific-contributions/Walter-W-Stroup-2002930468
+  Kent M. Eskridge:
+    href: https://www.researchgate.net/profile/Kent_Eskridge
+
+development:
+  mode: unreleased
+
+
+navbar:
+  title: StroupGLMM
+  type: default
+  left:
+    - icon: fa-home fa-lg
+      text: Home
+      href: index.html
+    - icon: fa-code
+      text: Reference
+      href: reference/index.html
+    - icon: fa-newspaper-o
+      text: News
+      href: news/index.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/myaseen208/StroupGLMM
+      icon: fa-github
+      aria-label: "GitHub repository"
+    - text: "ResearchGate"
+      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+      icon: fa-github
+      aria-label: "ResearchGate"
+    - text: "Twitter"
+      href: https://twitter.com/myaseen208
+      icon: "fab fa-twitter"
+      aria-label: "Twitter"
+
+reference:
+    - title: Examples
+      contents:
+         - '`Exam1.1`'
+         - '`Exam1.2`'
+         - '`Exam2.B.1`'
+         - '`Exam2.B.2`'
+         - '`Exam2.B.3`'
+         - '`Exam2.B.4`'
+         - '`Exam2.B.5`'
+         - '`Exam2.B.6`'
+         - '`Exam2.B.7`'
+         - '`Exam3.2`'
+         - '`Exam3.3`'
+         - '`Exam3.5`'
+         - '`Exam3.9`'
+         - '`Exam4.1`'
+         - '`Exam5.1`'
+         - '`Exam5.2`'
+         - '`Exam5.3`'
+         - '`Exam7.1`'
+         - '`Exam7.2`'
+         - '`Exam7.3`'
+         - '`Exam7.6.2.1`'
+
+    - title: Data Sets
+      contents:
+         - '`DataExam2.B.2`'
+         - '`DataExam2.B.3`'
+         - '`DataExam2.B.4`'
+         - '`DataExam2.B.7`'
+         - '`DataSet3.1`'
+         - '`DataSet3.2`'
+         - '`DataSet3.3`'
+         - '`DataSet4.1`'
+         - '`DataSet5.1`'
+         - '`DataSet5.2`'
+         - '`DataSet7.1`'
+         - '`DataSet7.2`'
+         - '`DataSet7.3`'
+         - '`DataSet7.4`'
+         - '`DataSet7.4rsm`'
+         - '`DataSet7.6`'
+         - '`DataSet7.7`'
+         - '`Table1.1`'
+         - '`Table1.2`'

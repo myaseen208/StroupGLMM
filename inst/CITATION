@@ -1,0 +1,13 @@
+bibentry(
+  "manual",
+  header = "Please, support this project by citing it in your publications!",
+  title = "StroupGLMM: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup",
+	author = c(
+	           person(c("Muhammad"), "Yaseen")
+	         , person(c("Adeela"), "Munawar")
+	         , person(c("Walter", "W."), "Stroup")
+	         , person(c("Kent", "M."), "Eskridge")
+	         ),
+  year = 2016,
+  journal = "The Comprehensive R Archive Network (CRAN)"
+)

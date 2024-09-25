@@ -4,7 +4,9 @@
 \name{Table1.1}
 \alias{Table1.1}
 \title{Data for Table1.1 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup}
-\format{A \code{data.frame} with 11 rows and 3 variables.}
+\format{
+A \code{data.frame} with 11 rows and 3 variables.
+}
 \usage{
 data(Table1.1)
 }
@@ -13,9 +15,9 @@ data(Table1.1)
 }
 \details{
 \itemize{
-       \item{\code{x}}{independent variable}
-       \item{\code{Nx}}{bernouli trials (bernouli outcomes on each individual)}
-       \item{\code{y}}{number of successes on each individual}
+       \item x independent variable
+       \item Nx bernouli trials (bernouli outcomes on each individual)
+       \item y number of successes on each individual
        }
 }
 \examples{

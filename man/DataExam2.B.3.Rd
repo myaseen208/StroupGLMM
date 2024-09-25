@@ -4,7 +4,9 @@
 \name{DataExam2.B.3}
 \alias{DataExam2.B.3}
 \title{Data for Example 2.B.3 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup (p-55)}
-\format{A \code{data.frame} with 6 rows and 2 variables.}
+\format{
+A \code{data.frame} with 6 rows and 2 variables.
+}
 \usage{
 data(DataExam2.B.3)
 }

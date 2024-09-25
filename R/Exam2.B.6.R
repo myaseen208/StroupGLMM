@@ -1,7 +1,5 @@
 #' @title Example 2.B.6 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup(p-58)
 #' @name   Exam2.B.6
-#' @docType data
-#' @keywords datasets
 #' @description Exam2.B.6 is related to multi batch regression data assuming different forms of linear models keeping batch effect random.
 #' @author \enumerate{
 #'          \item  Muhammad Yaseen (\email{myaseen208@@gmail.com})
@@ -14,28 +12,28 @@
 #'  }
 #' @seealso
 #'    \code{\link{Table1.2}}
-#' 
+#'
+#' @import parameters
+#' @import broom.mixed
 #' @importFrom nlme lme
-#' 
+#'
 #' @examples
 #' #-----------------------------------------------------------------------------------
 #' ## Nested Model with no intercept
 #' #-----------------------------------------------------------------------------------
+#'
 #' data(Table1.2)
-#' library(nlme)
 #' Table1.2$Batch <- factor(x = Table1.2$Batch)
-#' Exam2.B.6fm1 <-
-#'   lme(
-#'       fixed       = Y~X
+#' library(nlme)
+#' Exam2.B.6fm1 <- lme(
+#'       fixed       = Y ~ X
 #'     , data        = Table1.2
 #'     , random      = list(Batch = pdDiag(~1), X = pdDiag(~1))
-#'     , correlation = NULL
-#'     , weights     = NULL
-#'   # , subset
-#'     , method      = "REML" #c("REML", "ML")
-#'     , na.action   = na.fail
-#'   # , control     = list()
-#'     , contrasts   = NULL
-#'     , keep.data   = TRUE
-#'   )
+#'     , method      = c("REML", "ML")[1]
+#'     )
+#' Exam2.B.6fm1
+#' library(broom.mixed)
+#' tidy(Exam2.B.6fm1)
 NULL
+
+

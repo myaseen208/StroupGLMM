@@ -1,7 +1,5 @@
 #' @title Example 2.B.4 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup(p-56)
 #' @name   Exam2.B.4
-#' @docType data
-#' @keywords datasets
 #' @description Exam2.B.4 is used to illustrate one way treatment design with Binomial observations.
 #' @author \enumerate{
 #'          \item  Muhammad Yaseen (\email{myaseen208@@gmail.com})
@@ -14,9 +12,10 @@
 #'  }
 #' @seealso
 #'    \code{\link{DataExam2.B.4}}
-#'    
+#'
+#' @import parameters
 #' @importFrom stats glm summary.glm
-#'        
+#'
 #' @examples
 #' #-----------------------------------------------------------------------------------
 #' ## logit Model  discussed in Example 2.B.2 using DataExam2.B.4
@@ -26,24 +25,12 @@
 #' data(DataExam2.B.4)
 #' DataExam2.B.4$trt <- factor(x =  DataExam2.B.4$trt)
 #' Exam2.B.4glm <-
-#'   glm(
-#'          formula    =  Yij/Nij~trt
-#'        , family     =  quasibinomial(link = "probit")
-#'        , data       =  DataExam2.B.4
-#'        , weights    =  NULL
-#'     #  , subset
-#'     #  , na.action
-#'        , start      =  NULL
-#'     #  , etastart
-#'     #  , mustart
-#'     #  , offset
-#'     #  , control    =  list(...)
-#'     #  , model      =  TRUE
-#'        , method     =  "glm.fit"
-#'     #  , x          =  FALSE
-#'     #  , y          =  TRUE
-#'        , contrasts  =  NULL
-#'     #  , ...
-#'   )
+#'                 glm(
+#'                       formula = Yij/Nij ~ trt
+#'                     , family  =  quasibinomial(link = "probit")
+#'                     , data    = DataExam2.B.4
+#'                     )
 #' summary(Exam2.B.4glm)
+#' library(parameters)
+#' model_parameters(Exam2.B.4glm)
 NULL

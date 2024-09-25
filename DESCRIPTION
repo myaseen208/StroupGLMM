@@ -1,34 +1,39 @@
 Package: StroupGLMM
 Type: Package
 Title: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
-              person(c("Muhammad", "Yaseen"),      email = "myaseen208@gmail.com",  role = c("aut", "cre"))
-            , person(c("Adeela", "Munawar"),       email = "adeela.uaf@@gmail.com", role = c("aut"))
-            , person(c("Walter", "W.", "Stroup"),  email = "wstroup@unl.edu",       role = c("ctb"))
-            , person(c("Kent", "M.", "Eskridge"),  email = "keskridge1@unl.edu ",   role = c("ctb"))
+              person(c("Muhammad"), "Yaseen", email = "myaseen208@gmail.com",        role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-5923-1714"))
+            , person(c("Adeela"), "Munawar",  email = "adeela.uaf@gmail.com",       role = c("aut", "ctb"))
+            , person(c("Walter",  "W."), "Stroup",  email = "wstroup@unl.edu",       role = c("aut", "ctb"))
+            , person(c("Kent",  "M."), "Eskridge",  email = "keskridge1@unl.edu ",   role = c("aut", "ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: R Codes and Datasets for Stroup, W. W. (2012). Generalized Linear Mixed Models Modern Concepts, Methods and Applications, CRC Press.
+URL: https://myaseen208.com/StroupGLMM/
+     https://CRAN.R-project.org/package=StroupGLMM
+BugReports: https://github.com/myaseen208/StroupGLMM/issues
 Depends: R (>= 3.1)
 Imports: 
      aod, 
+     broom.mixed,
+     car,
+     dplyr,
+     emmeans,
      ggplot2, 
-     lme4, 
      lmerTest, 
-     lsmeans, 
+     magrittr,
      MASS, 
      mutoss, 
      nlme, 
-     pbkrtest, 
+     parameters,
      phia, 
+     scatterplot3d,
      stats, 
-     survey,
-     car,
-     plot3D,
-     scatterplot3d
+     survey
 License: GPL-2
-Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
-Note: Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad-Pakistan.
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Note: 1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
+      2. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad, Pakistan

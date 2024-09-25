@@ -1,0 +1,92 @@
+---
+output: rmarkdown::github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "",
+  fig.path = "inst/extdata/"
+)
+```
+
+## `StroupGLMM`: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
+
+
+###### Version : [`r getNamespaceVersion("StroupGLMM")`](https://myaseen208.com/StroupGLMM/); Copyright (C) 2016-2024: License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
+
+
+##### *Muhammad Yaseen^1,2^, Adeela Munawar^2^, Walter W. Stroup^3^, and Kent M. Eskridge^3^*
+
+1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
+
+2. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Pakistan
+
+3. Department of Statistics, University of Nebraska Lincoln, NE, USA
+
+***
+
+[![minimal R version](https://img.shields.io/badge/R>%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version-last-release/StroupGLMM)](https://cran.r-project.org/package=StroupGLMM)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/StroupGLMM?color=green)](https://CRAN.R-project.org/package=StroupGLMM)
+<!-- [![packageversion](https://img.shields.io/badge/Package%20version-0.2.3.3-orange.svg)](https://github.com/myaseen208/StroupGLMM) -->
+
+```{r, results='asis', echo=FALSE}
+dver <- ifelse(test = gsub("(.\\.)(\\d+)(\\..)", "", getNamespaceVersion("StroupGLMM")) != "",
+               yes = getNamespaceVersion("StroupGLMM"),
+               no = gsub("Version:\\s*", "", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/StroupGLMM", "/master/DESCRIPTION"))[grep("Version:", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/StroupGLMM", "/master/DESCRIPTION")))]))
+cat(paste("[![develVersion](https://img.shields.io/badge/devel%20version-", dver, "-orange.svg)](https://github.com/myaseen208/StroupGLMM)", sep = ""))
+```
+
+<!-- [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/myaseen208/StroupGLMM/total.svg)] -->
+[![Project Status: WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](https://github.com/myaseen208/StroupGLMM)
+***
+
+## Description
+`r gsub("(<doi:)(.+)(>)", "[doi:\\2](https://doi.org/\\2)", gsub("\\n", " ", packageDescription("StroupGLMM", fields = "Description")))`
+
+## Installation
+The package can be installed from CRAN as follows:
+
+```{r, eval=FALSE}
+install.packages("StroupGLMM", dependencies = TRUE)
+```
+
+
+
+The development version can be installed from github as follows:
+
+```{r, eval=FALSE}
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("myaseen208/StroupGLMM")
+```
+
+
+
+## What's new
+To know whats new in this version type:
+
+```{r, eval=FALSE}
+news(package = "StroupGLMM")
+```
+
+## Links
+
+[CRAN page](https://cran.r-project.org/package=StroupGLMM)
+
+[Github page](https://github.com/myaseen208/StroupGLMM)
+
+[Documentation website](https://myaseen208.com/StroupGLMM/)
+
+
+
+## Citing `StroupGLMM`
+To cite the methods in the package use:
+
+
+```{r, comment = ""}
+citation("StroupGLMM")
+```
