@@ -1,7 +1,7 @@
 
 ## `StroupGLMM`: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup
 
-###### Version : [0.2.0](https://myaseen208.com/StroupGLMM/); Copyright (C) 2019-2020: License: [GPL-2\|GPL-3](https://www.r-project.org/Licenses/)
+###### Version : [0.2.0](https://myaseen208.com/StroupGLMM/); Copyright (C) 2016-2024: License: [GPL-2\|GPL-3](https://www.r-project.org/Licenses/)
 
 ##### *Muhammad Yaseen<sup>1,2</sup>, Adeela Munawar<sup>2</sup>, Walter W. Stroup<sup>3</sup>, and Kent M. Eskridge<sup>3</sup>*
 
@@ -76,19 +76,18 @@ To cite the methods in the package use:
 
 ``` r
 citation("StroupGLMM")
-Warning in citation("StroupGLMM"): could not determine year for 'StroupGLMM'
-from package DESCRIPTION file
-To cite package 'StroupGLMM' in publications use:
+Please, support this project by citing it in your publications!
 
-  Yaseen M, Munawar A (????). _StroupGLMM: R Codes and Datasets for
-  Generalized Linear Mixed Models: Modern Concepts, Methods and
-  Applications by Walter W. Stroup_. R package version 0.2.0.
+  Yaseen M, Munawar A, Stroup WW, Eskridge KM (2016). _StroupGLMM: R
+  Codes and Datasets for Generalized Linear Mixed Models: Modern
+  Concepts, Methods and Applications by Walter W. Stroup_.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
     title = {StroupGLMM: R Codes and Datasets for Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup},
-    author = {Muhammad Yaseen and Adeela Munawar},
-    note = {R package version 0.2.0},
+    author = {Muhammad Yaseen and Adeela Munawar and Walter W. Stroup and Kent M. Eskridge},
+    year = {2016},
+    journal = {The Comprehensive R Archive Network (CRAN)},
   }
 ```
