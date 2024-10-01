@@ -83,6 +83,14 @@ reference:
          - '`Exam7.2`'
          - '`Exam7.3`'
          - '`Exam7.6.2.1`'
+         - '`Exam7.7`'
+         - '`Exam8.1`'
+         - '`Exam8.2`'
+         - '`Exam8.3`'
+         - '`Exam8.4`'
+         - '`Exam9.1`'
+         - '`Exam9.2`'
+         - '`Exam9.4`'
 
     - title: Data Sets
       contents:
@@ -103,5 +111,12 @@ reference:
          - '`DataSet7.4rsm`'
          - '`DataSet7.6`'
          - '`DataSet7.7`'
+         - '`DataSet8.1`'
+         - '`DataSet8.2`'
+         - '`DataSet8.3`'
+         - '`DataSet8.4`'
+         - '`DataSet9.1`'
+         - '`DataSet9.2`'
+         - '`DataSet9.4`'
          - '`Table1.1`'
          - '`Table1.2`'

@@ -1,3 +1,8 @@
+# Changes in StroupGLMM  Version 0.3.0
+## New Features 
+
+* Added Chapters 8 and 9
+
 # Changes in StroupGLMM  Version 0.2.0
 ## New Features 
 

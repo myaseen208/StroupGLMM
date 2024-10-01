@@ -1,0 +1,108 @@
+#' @title Example 8.3 from Generalized Linear Mixed Models: Modern Concepts, Methods and Applications by Walter W. Stroup (p-255)
+#' @name   Exam8.3
+#' @description Exam8.3 explains Response surface design with incomplete blocking
+#' @author \enumerate{
+#'          \item  Muhammad Yaseen (\email{myaseen208@@gmail.com})
+#'          \item Adeela Munawar (\email{adeela.uaf@@gmail.com})
+#'          }
+#' @references \enumerate{
+#' \item Stroup, W. W. (2012).
+#'      \emph{Generalized Linear Mixed Models: Modern Concepts, Methods and Applications}.
+#'        CRC Press.
+#'  }
+#'
+#' @seealso
+#'    \code{\link{DataSet8.3}}
+#'
+#' @import lmerTest lattice
+#'
+#' @examples
+#'
+#' ## Response Surface Design with incomplete blocking (page 255)
+#' data(DataSet8.3)
+#' DataSet8.3$block <- factor(x = DataSet8.3$block)
+#' DataSet8.3$aa <- factor(x = DataSet8.3$a)
+#' DataSet8.3$bb <- factor(x = DataSet8.3$b)
+#' DataSet8.3$cc <- factor(x = DataSet8.3$c)
+#'
+#' library(lmerTest)
+#' library(lattice)
+#'
+#' Exam8.3.fm1 <-
+#'          lmer(
+#'              y ~ aa:bb:cc + a + b + c +
+#'                  I(a^2) + I(b^2) + I(c^2) +
+#'                  a*b + a*c + b*c + (1|block)
+#'            , data = DataSet8.3
+#'            )
+#'
+#' ##--- page 256
+#' anova(Exam8.3.fm1, ddf = "Kenward-Roger", type = 1)
+#'
+#'
+#' Exam8.3.fm2 <-
+#'            lmer(
+#'                 y ~ a + b + c +
+#'                     I(a^2) + I(b^2) + I(c^2) +
+#'                     a*b + a*c + b*c + (1|block)
+#'               , data = DataSet8.3
+#'               )
+#' ##--- page 257
+#' anova(Exam8.3.fm2, ddf = "Kenward-Roger", type = 1)
+#'
+#' ##--- page 257
+#' Exam8.3.fm3 <-
+#'         lmer(
+#'              y ~ a + b + c +
+#'                  I(a^2) + I(b^2) +
+#'                  a*c + b*c + (1|block)
+#'           , DataSet8.3
+#'           )
+#' anova(Exam8.3.fm3, ddf = "Kenward-Roger", type = 1)
+#'
+#' ##--- scatter plot with regression plane by using Hoerl function ( page#233)
+#' a <- seq(from = -1, to = 1, by = 1)
+#' b <- seq(from = -1, to = 1, by = 1)
+#' c <- seq(from = -1, to = 1, by = 1)
+#' abc <- expand.grid(a = a, b = b, c = c)
+#'
+#' Yhat <- NULL
+#' for(i in 1:nrow(abc)) {
+#' Yhat[i] <- 50.08500 + 1.6*abc$a[i] + 1.69375*abc$b[i] +  0.51875*abc$c[i]-
+#'            3.30250*I((abc$a[i])^2)-3.51500*I((abc$b)^2)[i] -
+#'            0.52500*(abc$a)[i]*(abc$c)[i]-1.16250*(abc$b)[i]*(abc$c)[i]
+#' }
+#'
+#' Newdata <- data.frame(abc, Yhat)
+#' Plot1 <-
+#'   wireframe(Yhat ~ b*a, data = subset(Newdata,c==-1),
+#'   xlab = "b", ylab = "a",
+#'   main = "Predicte response surface at C=-1",  colorkey = F,
+#'   drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+#'   screen = list(z = -50, x =-70)
+#' )
+#'
+#' Plot2 <-
+#'   wireframe(Yhat ~ b*a, data = subset(Newdata,c==0),
+#'   xlab = "b", ylab = "a",
+#'   main = "Predicte response surface at C=0",  colorkey = F ,
+#'   drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+#'   screen = list(z = -50, x =-70)
+#' )
+#'
+#' Plot3 <-
+#'  wireframe(Yhat ~ b*a, data = subset(Newdata,c==1),
+#'   xlab = "b", ylab = "a",
+#'   main = "Predicte response surface at C=1",  colorkey = F ,
+#'   drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+#'   screen = list(z = -50, x =-70)
+#' )
+#'
+#' print(Plot1)
+#' print(Plot2)
+#' print(Plot3)
+#'
+NULL
+
+
+
