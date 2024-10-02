@@ -31,7 +31,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/StroupGLMM?color=green)
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2024--09--30-yellowgreen.svg)](https://github.com/myaseen208/StroupGLMM)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2024--10--02-yellowgreen.svg)](https://github.com/myaseen208/StroupGLMM)
 \*\*\*
 
 ## Description
