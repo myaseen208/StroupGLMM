@@ -67,24 +67,24 @@ Newdata <- data.frame(abc, Yhat)
 Plot1 <-
   wireframe(Yhat ~ b*a, data = subset(Newdata,c==-1),
   xlab = "b", ylab = "a",
-  main = "Predicte response surface at C=-1",  colorkey = F,
-  drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+  main = "Predicte response surface at C=-1",  colorkey = FALSE,
+  drape = TRUE, scales = list(arrows = FALSE),xlim=c(max(b),(min(b))),
   screen = list(z = -50, x =-70)
 )
 
 Plot2 <-
   wireframe(Yhat ~ b*a, data = subset(Newdata,c==0),
   xlab = "b", ylab = "a",
-  main = "Predicte response surface at C=0",  colorkey = F ,
-  drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+  main = "Predicte response surface at C=0",  colorkey = FALSE ,
+  drape = TRUE, scales = list(arrows = FALSE),xlim=c(max(b),(min(b))),
   screen = list(z = -50, x =-70)
 )
 
 Plot3 <-
  wireframe(Yhat ~ b*a, data = subset(Newdata,c==1),
   xlab = "b", ylab = "a",
-  main = "Predicte response surface at C=1",  colorkey = F ,
-  drape = TRUE, scales = list(arrows = F),xlim=c(max(b),(min(b))),
+  main = "Predicte response surface at C=1",  colorkey = FALSE,
+  drape = TRUE, scales = list(arrows = FALSE),xlim=c(max(b),(min(b))),
   screen = list(z = -50, x =-70)
 )
 

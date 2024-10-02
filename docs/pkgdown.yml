@@ -2,7 +2,7 @@ pandoc: '3.2'
 pkgdown: 2.1.1.9000
 pkgdown_sha: 0a18bc718640aee7160a0ebbcdef5ecaae2ac4a4
 articles: {}
-last_built: 2024-10-01T01:35Z
+last_built: 2024-10-02T04:42Z
 urls:
   reference: https://myaseen208.com/StroupGLMM/reference
   article: https://myaseen208.com/StroupGLMM/articles

@@ -20,7 +20,8 @@ Imports:
      car,
      dplyr,
      emmeans,
-     ggplot2, 
+     ggplot2,
+     lattice,
      lmerTest, 
      magrittr,
      MASS, 
@@ -32,7 +33,7 @@ Imports:
      splines,
      stats, 
      survey
-License: GPL-2
+License: GPL-3
 LazyData: true
 RoxygenNote: 7.3.2
 Encoding: UTF-8
